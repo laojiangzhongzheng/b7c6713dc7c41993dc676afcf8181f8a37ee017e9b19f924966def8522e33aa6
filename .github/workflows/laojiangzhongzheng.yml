@@ -1,25 +1,24 @@
 name: laojiangzhongzheng
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '44 1/6 * * *'
+    - cron: '17 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: laojiangzhongzheng
         env:
-          pvuv1: ${{ secrets.pvuv1 }}
+          isbpb02: ${{ secrets.isbpb02 }}
         run: |
-          echo $pvuv1 | jq -r .kl75025 | /bin/bash
-          echo $kzyc69 | jq -r .tdik5018 | /bin/bash
-          echo $znlq2189 | jq -r .vk81388 | /bin/bash
-          echo $mbsv448 | jq -r .uar4335 | /bin/bash
-          echo $qy1226 | jq -r .pdp42 | /bin/bash
-          echo $ucumf875 | jq -r .zky13858 | /bin/bash
-          echo $kll02 | jq -r .kiny34 | /bin/bash
-          echo $e89 | jq -r .b4 | /bin/bash
+          echo $isbpb02 | jq -r .ddgt90 | /bin/bash
+          echo $sobo5504 | jq -r .d5084 | /bin/bash
+          echo $o56 | jq -r .o8 | /bin/bash
+          echo $nj15618 | jq -r .vqiv5489 | /bin/bash
+          echo $lk504 | jq -r .nryd5 | /bin/bash
+          echo $eovcn66 | jq -r .mln3653 | /bin/bash
+          echo $f80 | jq -r .thr5273 | /bin/bash
+          echo $mtm42 | jq -r .rcbyr1980 | /bin/bash
+          echo $mapz1 | jq -r .tzt61 | /bin/bash
 
